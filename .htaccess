@@ -1,0 +1,4 @@
+# Zamedzí priamemu stiahnutiu konfiguračných súborov na Apache hostingu.
+<FilesMatch "^(config\.php|config\.example\.php)$">
+    Require all denied
+</FilesMatch>
